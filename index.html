@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Der Binär Taschenrechner</title>
+        <link rel="stylesheet" href="./binary.css">
+        <script src="./binary.js"></script>
+    </head>
+    <body>
+        <div id="display">
+            <label>Dezimal: </label><input id="decimal" onkeyup="document.getElementById('binary').value=dezimal2binary(this.value)"/>
+            <label>Binär: </label><input id="binary"/>
+        </div>
+
+    </body>
+</html>
